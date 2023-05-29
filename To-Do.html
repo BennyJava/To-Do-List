@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Document</title>
+    <script src="To-Do.js"></script>
+    <style>
+    h1 {
+        text-align: center;
+        margin-bottom: 100px;
+        font-size: 50px;
+    }
+    #liste {
+        text-align: center;
+        margin-top: 100px;
+        padding: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #inputField {
+        margin-top: 150px;
+    padding: 15px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+    #addBtn {
+        margin-top: 150px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: 10px;
+}
+    .deleteBtn {
+        margin-left: 20px;
+        font-size: 20px
+    }
+    
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+    
+    </style>
+</head>
+<body>
+    <h1>Einkaufsliste</h1>
+    <div class="input">
+    <input onsubmit="" placeholder="hier einfügen" id="inputField" type="text">
+    
+    <button class="material-symbols-outlined" id="addBtn" onclick="add()">shopping_cart_checkout</button>
+</div>
+    <p id="liste"></p>
+</body>
+</html>
